@@ -40,5 +40,5 @@ sudo systemctl enable php71-php-fpm
 sudo yum -y install zip unzip git
 
 #設定ファイルの更新
-#sudo cp /vagrant/www.conf /etc/opt/remi/php71/php-fpm.d/
-#sudo cp /vagrant/nginx.conf /etc/nginx/
+#sudo cp /vagrant/php-fpm/www.conf /etc/opt/remi/php71/php-fpm.d/
+#sudo cp /vagrant/nginx/nginx.conf /etc/nginx/
